@@ -1,0 +1,92 @@
+.button {
+    padding: 10px 30px;
+    font-size: 17px;
+    margin: 30px;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  .button.default {
+    background-color: #eee;
+    color: #000;
+  }
+  .button.hover {
+    background-color: #ccc;
+    color: #000;
+  }
+  .button.outline {
+    background-color: #fff;
+    color: blue;
+    border: 1px solid blue;
+  }
+  .button.outline-hover {
+    background-color: #eaeffe;
+    color: blue;
+    border: 1px solid blue;
+  }
+  .button.text {
+    background-color: #fff;
+    color: #93a6f8;
+  }
+  .button.no-outline {
+    background-color: #eaeffe;
+    color: blue;
+  }
+  .button.disabled {
+    background-color: #e0e0e0;
+    color: #a3a3a3;
+  }
+  .button.nobg-disabled {
+    background-color: #fff;
+    color: #a3a3a3;
+  }
+  .button.primary {
+    background-color: #2962FF;
+    color: white;
+  }
+  .button.primary-f {
+    background-color: #0056b3;
+    color: white;
+  }
+  
+  .button.secondary {
+    background-color: #6C757D;
+    color: white;
+  }
+  .button.secondary-f {
+    background-color: #455A64 ;
+    color: white;
+  }
+  .button.danger {
+    background-color: #D32F2F;
+    color: white;
+  }
+  .button.danger-f {
+    background-color: #C82333;
+    color: white;
+  }
+  .button.disabledShadow {
+    background-color: #3f5ff6;
+    color: white;
+  }
+  .button.cart {
+    padding: 15px 40px;
+  }
+  .button.small {
+    width: 35%;
+    text-align: center;
+  }
+  
+  .button.medium {
+    width: 42%;
+    text-align: center;
+  }
+  
+  .button.large {
+    width: 55%;
+    text-align: center;
+  }
+  
+  
